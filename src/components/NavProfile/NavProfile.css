@@ -1,0 +1,34 @@
+.nav-profile {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile__img {
+  width: 50px;
+  height: 50px;
+  background-color: chocolate;
+  border-radius: 50%;
+}
+
+.nav-profile .menu-icon {
+  visibility: hidden;
+}
+
+@media (max-width: 1024px) {
+  .nav-profile .menu-icon {
+    visibility: visible;
+  }
+
+  .nav-profile {
+    margin-top: 0;
+    width: 100%;
+  }
+}

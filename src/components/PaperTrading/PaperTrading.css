@@ -1,0 +1,12 @@
+.table th {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.form-select {
+  margin-top: 2rem;
+  width: 70px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+

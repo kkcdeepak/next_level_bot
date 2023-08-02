@@ -1,0 +1,16 @@
+.BrokerSymbol {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.BrokerSymbol .list p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: all 400ms ease;
+  border-bottom: 5px solid rgba(146, 141, 141, 0.144);
+}
+
+.BrokerSymbol .list p:hover {
+    border-color: blue;
+}

@@ -1,0 +1,21 @@
+.faq {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.faq-hero {
+  border-radius: 0.8rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 2rem;
+  background: url("../../assets/banner.png");
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E8E7F7;
+}
+

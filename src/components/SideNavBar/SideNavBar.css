@@ -1,0 +1,88 @@
+.side-navigation {
+  width: 260px;
+  height: 100vh;
+  overflow-y: scroll;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.side-navigation::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+
+.side-navigation::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.side-navigation:hover::-webkit-scrollbar-thumb {
+  background: rgb(202, 199, 199);
+  border-radius: 10px;
+}
+
+#nav-accordion button {
+  padding: 0;
+}
+
+#nav-accordion button:focus {
+  box-shadow: none;
+}
+
+#nav-accordion .accordion-item {
+  border: none;
+}
+
+#nav-accordion .accordion-body {
+  padding: 0;
+}
+
+.side-navigation a {
+  text-decoration: none;
+}
+
+.side-navigation h4:hover,
+.side-navigation h2:hover,
+.side-navigation .accordion-button:hover {
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+
+.side-navigation h4,
+.side-navigation h2,
+.side-navigation .accordion-button {
+  color: #625f6e !important;
+}
+
+.side-navigation .accordion-button::after {
+  opacity: 0.5 !important;
+}
+
+.side-navigation h4,
+.side-navigation h2 {
+  padding: 0.6rem 0.3rem;
+  border-radius: 0.6rem;
+  transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955) ease;
+}
+
+.side-navigation .active {
+  background-color: #0a63f3;
+  color: white !important;
+  box-shadow: 0 0 10px 1px rgba(22, 65, 238, 0.7);
+}
+
+@media (max-width: 1024px) {
+  .side-navigation {
+    display: none;
+  }
+  .nav-responsive {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 400ms ease;
+  }
+  .nav-responsive .side-navigation {
+    display: block;
+  }
+}
